@@ -208,6 +208,40 @@ background-color: #8ccde8;
 }
 
 
+@media only screen and (max-width:500px) {
+
+    .contanear{
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        height: 1000px;
+        width: 600px;
+       margin-bottom: 0px;
+    }
+
+   .box{
+  margin: 10px 10px 10px;
+}
+.item{
+  
+     padding-bottom: 37px;
+   
+  
+}
+
+.result{
+    background-color: white;
+    color: black;
+    width: 100%;
+    padding: 5px;
+    border-radius: 8px;
+}
+    
+}
+
+
+
 
 
 
@@ -504,4 +538,5 @@ background-color: #8ccde8;
     z-index: 2;
     opacity: 1;
     transition: opacity 2s ease;
+
 }
